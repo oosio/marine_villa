@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>新浦安マリンヴィラ自治会ホームページ</title>
+    <title>新浦安マリンヴィラ自治会</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <?php include 'header.php'; ?>

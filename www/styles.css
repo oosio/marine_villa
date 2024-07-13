@@ -96,11 +96,15 @@ form label {
 }
 
 form input, form textarea {
-    width: 100%;
+    width: 95%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+form textarea{
+    height: 100px;
 }
 
 form button {

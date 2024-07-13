@@ -13,8 +13,7 @@
         <main>
             <section id="contact">
                 <h2>お問い合わせ</h2>
-                <p>自治会に関する問い合わせ、入退会の申し込みは、随時受け付けております。</p>
-                <p>下記フォームからお問い合わせ下さい。</p>
+                <p>自治会に関する問い合わせや入退会の申し込みは、下記フォームからお問い合わせ下さい。</p>
                 <p></p>
                 <form id="contactForm">
                     <label for="name">名前:</label>
@@ -26,7 +25,7 @@
                     <label for="message">メッセージ:</label>
                     <textarea id="message" name="message" required></textarea>
 
-                    <button type="submit" onclick="submitForm()">送信</button>
+                    <button type="submit">送信</button>
                 </form>
             </section>
         </main>
