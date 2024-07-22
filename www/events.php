@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>年間イベント予定</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="/www/styles.css">
+    <link rel="icon" href="/www/favicon.ico">
 </head>
 <body>
-    <?php include 'header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/header.php'; ?>
     <div class="container">
         <main>
             <section id="events">
@@ -60,7 +60,7 @@
             </section>
         </main>
     </div>
-    <?php include 'footer.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/footer.php'; ?>
     <script src="scripts.js"></script>
 </body>
 </html>
