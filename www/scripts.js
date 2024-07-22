@@ -18,32 +18,46 @@ window.onclick = function(event) {
     }
 }
 
-function submitForm(){
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var message = document.getElementById('message').value;
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // フォームのデフォルトの送信動作を防ぐ
 
-    if (name === '' || email === '' || message === '') {
-        alert('すべてのフィールドを入力してください。');
-    } else if (!validateEmail(email)) {
-        alert('有効なメールアドレスを入力してください。');
-    } else {
-        alert('問い合わせが送信されました。');
-        // 実際にはここでフォームをサーバーに送信する処理を行います。
-        // 例: 
-        // var formData = new FormData(document.getElementById('contactForm'));
-        // fetch('サーバーのエンドポイント', {
-        //     method: 'POST',
-        //     body: formData
-        // }).then(response => response.json()).then(data => {
-        //     console.log(data);
-        // }).catch(error => {
-        //     console.error('Error:', error);
-        // });
-    }
-}
+    // Google FormsのURL
+    const googleFormsUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSeN263mQebOwkQu1e_9TafyIpA4iKTTDtNIbwXtyDe46PxAXg/formResponse';
 
-function validateEmail(email) {
-    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
+    // フォームデータを取得
+    const formData = new FormData(event.target);
+
+    // URLSearchParamsを使用してフォームデータをエンコード
+    const urlParams = new URLSearchParams();
+    formData.forEach((value, key) => {
+        urlParams.append(key, value);
+    });
+
+
+    // フォームデータをオブジェクトに変換
+    const formObject = {};
+    formData.forEach((value, key) => {
+        formObject[key] = value;
+    });
+
+    // データをコンソールに出力
+    console.log(formObject);
+
+    fetch(googleFormsUrl, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: urlParams
+          })
+      .then(response => {
+        if (response.ok || response.status === 0) { // no-corsの場合、statusが0になる
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('thankYouMessage').style.display = 'block';
+        } else {
+            alert('送信に失敗しました。もう一度お試しください。');
+        }
+       })
+       .catch((error) => {
+        console.error('Error:', error);
+        alert('送信に失敗しました。もう一度お試しください。');
+    });
+});
