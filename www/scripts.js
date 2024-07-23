@@ -3,6 +3,14 @@ function toggleDropdown() {
     var dropdownContent = document.querySelector(".dropdown-content");
     console.log(dropdownContent);
     dropdownContent.classList.toggle("show");
+
+    // 画像を差し替える
+    const imgElement = document.getElementById('menubtn');
+    if (dropdownContent.classList.contains('show')){
+        imgElement.src = "/images/close.png";
+    }else{
+        imgElement.src = "/images/menu.png"; 
+    }
 }
 
 // メニュー外をクリックした場合にドロップダウンを閉じる
@@ -15,6 +23,10 @@ window.onclick = function(event) {
                 openDropdown.classList.remove('show');
             }
         }
+        
+        // 画像を差し替える
+        const imgElement = document.getElementById('menubtn');
+        imgElement.src = "/images/menu.png";
     }
 }
 

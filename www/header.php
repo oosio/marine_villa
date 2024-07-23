@@ -6,7 +6,7 @@
     </div>
     <div class="dropdown mobile-only">
         <a href="javascript:void(0)" class="dropbtn" onclick="toggleDropdown()">
-            <img src="/images/menu.png" class="dropbtn" alt="Button Image">
+            <img src="/images/menu.png" id="menubtn" class="dropbtn" alt="Button Image">
         </a>        
     </div>
 </header>
