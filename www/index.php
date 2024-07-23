@@ -12,8 +12,8 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/header.php'; ?>
     <div class="container">
         <main>
-            <img class="pc-only" src="images/main_visual_pc.jpg" alt="top image">
-            <img class="mobile-only" src="images/main_visual_sm.jpg" alt="top image">
+            <img class="pc-only top-image" src="images/main_visual_pc.jpg" alt="top image">
+            <img class="mobile-only top-image" src="images/main_visual_sm.jpg" alt="top image">
             <section id="announcements">
                 <h2>お知らせ</h2>
                 <ul>

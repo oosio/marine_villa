@@ -36,5 +36,6 @@
     </div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/footer.php'; ?>
     <script src="scripts.js"></script>
+    <script src="contact.js"></script>
 </body>
 </html>

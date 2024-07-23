@@ -18,7 +18,7 @@
                     <tbody>
                         <tr>
                             <td class="date">2024.07.20</td>
-                            <td class="title"><a href="/www/reports/2024/reports2024_soukai.php">自治会設立総会</a></td>
+                            <td class="title"><a href="/www/reports/2024/reports2024_soukai.php">自治会設立総会</a>を開催しました。</td>
                         </tr>
                         <!-- ここにさらにイベントを追加 -->
                     </tbody>
