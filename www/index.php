@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>新浦安マリンヴィラ自治会</title>
-    <link rel="stylesheet" href="/www/styles.css">
-    <link rel="icon" href="/www/favicon.ico">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" href="/favicon.ico">
 </head>
 <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/header.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php'; ?>
     <div class="container">
         <main>
-            <img class="pc-only top-image" src="images/main_visual_pc.jpg" alt="top image">
-            <img class="mobile-only top-image" src="images/main_visual_sm.jpg" alt="top image">
+            <img class="pc-only top-image" src="/images/main_visual_pc.jpg" alt="top image">
+            <img class="mobile-only top-image" src="/images/main_visual_sm.jpg" alt="top image">
             <section id="announcements">
                 <h2>お知らせ</h2>
                 <ul>
@@ -22,7 +22,7 @@
             </section>
         </main>
     </div>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/www/footer.php'; ?>
-    <script src="scripts.js"></script>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/footer.php'; ?>
+    <script src="/scripts.js"></script>
 </body>
 </html>
