@@ -176,7 +176,7 @@ td{
     gap: 10px;
 }
 .gallery img {
-    width: 140px;
+    width: 130px;
     height: auto;
     cursor: pointer;
     object-fit: cover;
