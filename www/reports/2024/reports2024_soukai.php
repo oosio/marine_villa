@@ -20,10 +20,15 @@
                 <p>初代会長の中村さんのお話の中にもありましたが、自治会は住民の相互交流促進を目的とした組織であり、また役員が作るものではなく会員全員が作り上げていくものです。<br>皆さんが無理のない範囲でかつ楽しみながら参加できるようにしていきたいと役員一同思っております。<br>自治会のこのイベントに企画からかかわりたい、自治会でこんなイベントを企画してみたい、などありましたらお気軽にお問合せください！</p>
                 <div class="gallery">
                     <img src="img\img_2024sokai_000.jpg" alt="会場の高洲公民館">
-                    <img src="img\img_2024sokai_001.jpg" alt="総会前の準備の様子　その１">
-                    <img src="img\img_2024sokai_002.jpg" alt="総会前の準備の様子　その２">
-                    <img src="img\img_2024sokai_003.jpg" alt="総会中の様子　その１">
-                    <img src="img\img_2024sokai_004.jpg" alt="総会中の様子　その２">
+                    <img src="img\img_2024sokai_001.jpg" alt="準備中　その１">
+                    <img src="img\img_2024sokai_002.jpg" alt="準備中　その２">
+                    <img src="img\img_2024sokai_003.jpg" alt="総会中の様子。大勢の方にご参加いただきました。">
+                    <img src="img\img_2024sokai_004.jpg" alt="議長を引き受けてくださった長谷川さん。">
+                    <img src="img\img_2024sokai_005.jpg" alt="会長の中村さんはレジアスフォートでも自治会の立ち上げに携わっており、経験豊富です。">
+                    <img src="img\img_2024sokai_006.jpg" alt="副会長のお二人。安定感のあるお二人です。">
+                    <img src="img\img_2024sokai_007.jpg" alt="会計のお二人。なにかのセミナーっぽい。">
+                    <img src="img\img_2024sokai_008.jpg" alt="書記/広報の二人。でかめ。">
+                    <img src="img\img_2024sokai_009.jpg" alt="監査のお二人。会計のチェックをしっかり行います。">
                     <!-- 追加の画像もここに入れます -->
                 </div>
                 <div class="modal" id="modal">
